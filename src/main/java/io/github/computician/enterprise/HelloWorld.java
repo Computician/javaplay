@@ -1,4 +1,4 @@
-package io.github.computician.enterprise.entities.subdir.subsubdir;
+package io.github.computician.enterprise;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
