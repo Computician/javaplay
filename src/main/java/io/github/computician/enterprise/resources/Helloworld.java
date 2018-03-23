@@ -1,6 +1,6 @@
 package io.github.computician.enterprise.resources;
 
-import io.github.computician.enterprise.entities.HelloworldObject;
+import io.github.computician.enterprise.entities.subdir.subsubdir.HelloworldObjectFactoryGeneratorReallyLongEnterprisyName;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -12,7 +12,7 @@ public class Helloworld {
 
     @GET
     @Path("/{who}/world")
-    public HelloworldObject world(@PathParam("who") String who) {
-        return new HelloworldObject("Hello " + who);
+    public HelloworldObjectFactoryGeneratorReallyLongEnterprisyName world(@PathParam("who") String who) {
+        return new HelloworldObjectFactoryGeneratorReallyLongEnterprisyName("Hello " + who);
     }
 }
